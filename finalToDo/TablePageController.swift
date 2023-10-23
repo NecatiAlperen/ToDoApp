@@ -30,9 +30,9 @@ class TablePageController: UIViewController,UITableViewDelegate,UITableViewDataS
 
            
 
-           // Kullanıcının oturum açtığından emin olun
+           
            if Auth.auth().currentUser != nil {
-               // Kullanıcının verilerini Firestore'dan çekin
+               
                uploadData()
            }
        }
